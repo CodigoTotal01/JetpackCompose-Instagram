@@ -1,7 +1,6 @@
 package com.codigototal.jetpackcomposeinstagram
 
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
+
 import android.app.Activity
 import android.util.Patterns
 import androidx.compose.foundation.Image
@@ -47,7 +46,8 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import java.util.regex.Pattern
-
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 
 @Composable
 fun LoginScreen() {
