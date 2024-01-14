@@ -12,7 +12,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import com.codigototal.jetpackcomposeinstagram.recivlerview.SuperHeroGridView
+import com.codigototal.jetpackcomposeinstagram.recivlerview.SuperHeroViewSpecialControl
+import com.codigototal.jetpackcomposeinstagram.recivlerview.SuperHeroViewSticky
 import com.codigototal.jetpackcomposeinstagram.ui.theme.JetpackComposeInstagramTheme
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +28,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize().background(Color(0xff161c26)),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    TwiteerScreen()
+                    SuperHeroViewSticky()
                 }
             }
         }

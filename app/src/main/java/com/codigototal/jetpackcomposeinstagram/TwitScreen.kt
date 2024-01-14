@@ -201,5 +201,4 @@ fun ImageProfile(modifier: Modifier) {
             )
         );
     }
-
 }
